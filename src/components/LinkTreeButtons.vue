@@ -1,11 +1,18 @@
 <template>
-  <v-row align="center">
-    <v-col class="text-center" cols="12" sm="4">
-      <div class="my-2">
-        <v-btn dark block color="primary" :elevation="24">Primary</v-btn>
-      </div>
-    </v-col>
-  </v-row>
+  <v-main>
+    <v-container>
+      <v-responsive>
+        <v-row align="center">
+              <v-btn class="my-2" dark x-large block color="primary" :elevation="24">Portfolio Site</v-btn>
+              <v-btn class="my-2" dark x-large block color="primary" :elevation="24">LinkedIn</v-btn>
+              <v-btn class="my-2" dark x-large block color="primary" :elevation="24">Personal Coding Blog</v-btn>
+              <v-btn class="my-2" dark x-large block color="primary" :elevation="24">Twitter</v-btn>
+              <v-btn class="my-2" dark x-large block color="primary" :elevation="24">Instagram</v-btn>
+              <v-btn class="my-2" dark x-large block color="primary" :elevation="24">YouTube</v-btn>
+        </v-row>
+      </v-responsive>
+    </v-container>
+  </v-main>
 </template>
 
 <script>
