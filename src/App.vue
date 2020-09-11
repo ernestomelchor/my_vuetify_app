@@ -40,17 +40,22 @@
     <v-main>
       <HelloWorld/>
     </v-main>
+    <v-footer>
+      <Footer/>
+    </v-footer>
   </v-app>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld';
+import Footer from './components/Footer';
 
 export default {
   name: 'App',
 
   components: {
     HelloWorld,
+    Footer,
   },
 
   data: () => ({
