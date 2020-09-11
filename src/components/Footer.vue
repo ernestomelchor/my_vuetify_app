@@ -1,7 +1,9 @@
 <template>
   <v-footer>
     <v-spacer></v-spacer>
-    <div>&copy; {{ new Date().getFullYear() }}</div>
+    <div class="text-center">
+      Ernesto's LinkTree 
+    </div>
   </v-footer>
 </template>
 

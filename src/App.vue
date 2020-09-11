@@ -38,7 +38,7 @@
     </v-app-bar>
 
     <v-main>
-      <HelloWorld/>
+      <LinkTreeButtons/>
     </v-main>
     <v-footer>
       <Footer/>
@@ -47,14 +47,14 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+import LinkTreeButtons from './components/LinkTreeButtons';
 import Footer from './components/Footer';
 
 export default {
   name: 'App',
 
   components: {
-    HelloWorld,
+    LinkTreeButtons,
     Footer,
   },
 
