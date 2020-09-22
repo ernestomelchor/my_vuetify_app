@@ -1,6 +1,5 @@
 <template>
   <v-app>
-    <!-- <AppBar/> -->
     <ProfilePic />
     <LinkTreeButtons />
     <MyFooter />
@@ -8,16 +7,14 @@
 </template>
 
 <script>
-// import AppBar from './components/AppBar';
-import ProfilePic from "./components/ProfilePic";
-import LinkTreeButtons from "./components/LinkTreeButtons";
-import MyFooter from "./components/MyFooter";
+import ProfilePic from './components/ProfilePic';
+import LinkTreeButtons from './components/LinkTreeButtons';
+import MyFooter from './components/MyFooter';
 
 export default {
-  name: "App",
+  name: 'App',
 
   components: {
-    // AppBar,
     ProfilePic,
     LinkTreeButtons,
     MyFooter,
